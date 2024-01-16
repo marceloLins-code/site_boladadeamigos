@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1,
+section h2 {
+    font-family: "Permanent Marker", cursive;
+    font-weight: normal;
+    color: yellow;
+
+
+}
+
+body {
+    font-family: "Permanent Marker", cursive;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #0e6b3d;
+    color: #ecf0f1;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    color: yellow;
+
+
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0e6b3d;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.imagem_campo {
+    height: 350px;
+    margin-right: 32px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2,
+section h3 {
+    margin-bottom: 16px;
+    color: #0e6b3d;
+}
+
+section p {
+    margin-bottom: 8px;
+    color: blue;
+}
+
+
+#contato .container {
+    display: block;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 160px;
+}
+
+.rds-social img {
+    height: 24px;
+}
+
+.rds-social li a {
+    text-decoration: none;
+}
+
+.rds-social li {
+    display: inline;
+    margin-right: 8px;
+}
+
+#contato .container {
+    display: block;
+}
+
+.contato-metodos {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+form button {
+    background-color: #0e6b3d;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: yellow;
+    color: #0e6b3d;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: yellow;
+}
+
+footer {
+    background-color: #0e6b3d;
+    color: yellow;
+    padding: 16px 0;
+}
